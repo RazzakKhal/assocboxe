@@ -1,0 +1,557 @@
+body {
+  min-width: 240px;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+
+  color: #FF0066;
+
+}
+
+/* espace pour les vagues du bas ne recouvre pas les sections */
+
+.espace {
+  height: 100px;
+}
+
+/* Page d'accueil */
+.titrelogo {
+
+  height: 300px;
+  background-image: url('gant.svg');
+  background-repeat: no-repeat;
+  background-position: center 50px;
+}
+
+
+.menu {
+
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+
+}
+
+.menu li {
+
+  flex-basis: 25%;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  color: #FF0066;
+  border: 1px solid #FFF;
+  border-radius: 100%;
+  text-shadow: 1px 0px 1px #FF0066;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+
+  background-color: #FF0066;
+  position: relative;
+  background-image: url('wave.svg');
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.para1 {
+  color: #FF0066;
+  line-height: 25px;
+  background-color: #FFF;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 50px;
+  padding: 10px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  height: 18em;
+  text-align: center;
+
+
+}
+
+.para2 {
+  color: #FF0066;
+  line-height: 25px;
+  background-color: #FFF;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 50px;
+  padding: 10px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 76%, 0% 75%);
+  height: 17em;
+  text-align: center;
+
+}
+
+.para3 {
+  color: #FF0066;
+  line-height: 25px;
+  background-color: #FFF;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 50px;
+
+  padding: 10px;
+  clip-path: polygon(50% 0%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 50% 100%, 20% 80%, 0 100%, 0 0, 25% 20%);
+  height: 10em;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+
+p a {
+  text-transform: uppercase;
+  color: #FF0066;
+}
+
+
+
+.acc:hover {
+  flex-basis: 30%;
+  border: 1px solid #FF0066;
+  background-color: #FF0066;
+  color: #FFF;
+
+  border-radius: 50%;
+}
+
+strong {
+  text-transform: uppercase;
+}
+
+.even:hover {
+  flex-basis: 30%;
+  border: 1px solid #FF0066;
+  background-color: #FF0066;
+  color: #FFF;
+
+  border-radius: 50%;
+}
+
+.club:hover {
+  flex-basis: 30%;
+  border: 1px solid #FF0066;
+  background-color: #FF0066;
+  color: #FFF;
+
+  border-radius: 50%;
+}
+
+.contac:hover {
+  flex-basis: 30%;
+  border: 1px solid #FF0066;
+  background-color: #FF0066;
+  color: #FFF;
+
+  border-radius: 50%;
+}
+
+
+
+.acc:active {
+  flex-basis: 30%;
+  border: 1px solid #FF0066;
+  background-color: #FF0066;
+  color: #FFF;
+  text-shadow: 0px 1px 10px #FFF;
+  border-radius: 50%;
+}
+
+.even:active {
+  flex-basis: 30%;
+  border: 1px solid #FF0066;
+  background-color: #FF0066;
+  color: #FFF;
+  text-shadow: 0px 1px 10px #FFF;
+  border-radius: 50%;
+}
+
+.club:active {
+  flex-basis: 30%;
+  border: 1px solid #FF0066;
+  background-color: #FF0066;
+  color: #FFF;
+  text-shadow: 0px 1px 10px #FFF;
+  border-radius: 50%;
+}
+
+.contac:active {
+  flex-basis: 30%;
+  border: 1px solid #FF0066;
+  background-color: #FF0066;
+  color: #FFF;
+  text-shadow: 0px 1px 10px #FFF;
+  border-radius: 50%;
+}
+
+/* Page contact */
+.seccont {
+
+  background-image: url('wave.svg');
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+
+
+.presentationteddy {
+
+  color: #000;
+  text-align: center;
+  margin: 5px;
+}
+
+.teddy {
+  border: 2px double black;
+  margin: 0 auto;
+  background-color: #FFF;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 5%;
+  text-align: center;
+  margin-top: 10px;
+  background-image: url('wave2.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+.teddyimg {
+
+  border: 1px solid white;
+  border-radius: 10%;
+  box-shadow: 5px 5px 10px inset;
+  margin-top: 10px;
+
+}
+
+.tarifs {
+  color: #FFF;
+  text-transform: capitalize;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+/*Page évènements */
+
+img {
+  width: 90%;
+  height: 10em;
+  border: 2px double black;
+  padding: 3px;
+
+}
+
+.seceve {
+  height: 1625px;
+  background-color: #FF0066;
+  position: relative;
+  background-image: url('wave.svg');
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.eve1 {
+  width: 95%;
+  box-shadow: 5px 5px 5px #FFF;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.eve2 {
+  width: 95%;
+  box-shadow: 5px 5px 5px #FFF;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.eve3 {
+  width: 95%;
+  box-shadow: 5px 5px 5px #FFF;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.tdate {
+  color: #FFF;
+}
+
+.test {
+  position: relative;
+}
+
+/* page du club */
+
+.horaires {
+  border: 1px solid black;
+  display: table;
+  background-color: #FFF;
+  color: #FF0066;
+  font-family: 'Yusei Magic', sans-serif;
+  margin: 0 auto;
+  margin-top: 15px;
+
+}
+
+tbody {
+  border: 1px solid black;
+}
+
+tbody td {
+  border: 1px solid #F06;
+}
+
+.titretab {
+  color: #FFF;
+}
+
+.samedi {
+  background-color: #F06;
+}
+
+.secclub {
+
+  background-image: url('wave.svg');
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.boxxeur1 {
+  border: 2px double black;
+  height: 38em;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FFF;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 5%;
+  text-align: center;
+  margin-top: 10px;
+  background-image: url('wave2.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.boxxeur2 {
+  border: 2px double black;
+  height: 45em;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FFF;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 5%;
+  text-align: center;
+  margin-top: 10px;
+  background-image: url('wave2.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.boxeur1img {
+
+  border: 1px solid white;
+  border-radius: 10%;
+  box-shadow: 5px 5px 10px inset;
+  margin-top: 10px;
+
+}
+
+.boxeur2img {
+
+  border: 1px solid white;
+  border-radius: 10%;
+  box-shadow: 5px 5px 10px inset;
+  margin-top: 10px;
+
+}
+
+.pclub {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.textmika {
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.textvanessa {
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+/* traitement des queries */
+
+@media screen and (min-width:450px) {
+
+  /*Commun*/
+  .menu li {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .titrelogo {
+    background-position: center 70px;
+    height: 450px;
+  }
+
+  /*Accueil*/
+  .para1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .para2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .para3 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+
+
+  /* Evènements */
+  img {
+    height: 17em;
+  }
+
+
+
+  /* Le club */
+  .boxxeur1 {
+    height: 45em;
+  }
+
+  .boxxeur2 {
+    height: 48em;
+  }
+
+
+
+
+  /* contact */
+
+
+
+  .tarifs {
+    font-size: 20px;
+  }
+}
+
+
+
+@media screen and (min-width:768px) {
+  /*commun*/
+
+  .menu {
+    display: inline-flex;
+    flex-direction: row;
+    height: 100px;
+    margin-top: 70px;
+
+    width: 100%;
+
+  }
+
+  .menu li {
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+
+  .acc:hover {
+    transition: background 0.5s ease-in-out, color 1s ease-in-out, border 5s;
+  }
+
+  .even:hover {
+    transition: background 0.5s ease-in-out, color 1s ease-in-out, border 5s;
+  }
+
+  .club:hover {
+    transition: background 0.5s ease-in-out, color 1s ease-in-out, border 5s;
+  }
+
+  .contac:hover {
+    transition: background 0.5s ease-in-out, color 1s ease-in-out, border 5s;
+  }
+
+
+  /*Evenements*/
+
+  img {
+    height: 25em;
+  }
+
+
+  /* Le club */
+
+
+
+
+  /* contact */
+
+
+
+  .tarifs {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:950px) {
+
+  /*Evenement*/
+  img {
+    height: 29em;
+  }
+
+
+
+  /* Le club */
+
+
+
+  /* contact */
+
+
+
+  .tarifs {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:1035px) {
+
+  /*Evenement*/
+
+
+
+  .tarifs {
+    font-size: 20px;
+  }
+}
